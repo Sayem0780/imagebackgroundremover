@@ -1,14 +1,14 @@
 {
     "builds":[
         {
-            "src":"api/main.py",
+            "src":"OpenCv/api/main.py",
             "use":"@vercel/python"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"api/main.py"
+            "dest":"OpenCv/api/main.py"
 
         }
     ]
